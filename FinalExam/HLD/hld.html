@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Georgia History Museum | HLD</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+        <style>
+    
+        #headerLogo {
+ height: 170%;
+            margin-top: -5px;
+        }
+            
+            table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html"><img src="../images/GHM%20Logo%20White.png" id=headerLogo></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../Information/info.html">Information</a>
+                    </li>
+                    <li>
+                        <a href="../HLD/hld.html">High Level Design</a>
+                    </li>
+                    <li>
+                        <a href="../Innovation/innovation.html">Innovation</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Part 2B -->
+    <div class="container">
+        <section>
+            <div class="page-header" id="part2A">
+            </div>
+            
+            <div id="intro">
+            <h3>HLD Introduction</h3>
+                <p>
+                The diagrams below exhibit the components that make up the overall architecture of the website including the use case interaction between the admin/web developer called "admin" and the target audience in this called "user". The prototype and final builds of the website will heavily derive from the high level design in order to maintain design consistency and to maintain a foundation in the development of the website. 
+                </p>
+            </div>
+            
+            <div id="useCase">
+            <h3>Use Case Diagram</h3>
+                <div class = "row">
+                    <div class = "col-md-7">
+                <img src="../images/Use%20Case%20Diagram.png" height="100%" width="100%">
+                        </div>
+                    <div class = "col-md-5">
+                <p>
+                As the primary purpose of this project is to create a website to inform the target audience about the Georgia History Museum.  uni-directional HCI was decided in order to maintain a reliable "write and read" interaction. Users will be able to interact with the the website dynamically via JavaScript/JQuery and to external links but no form of return communication to "admin" will be utlized. 
+                </p>
+                        </div>
+            </div>
+            </div>
+            
+            
+            
+                       <div id="architecture">
+            <h3>Web Architecutre</h3>
+                <div class = "row">
+                    <div class = "col-md-7">
+                <img src="../images/Architecture.png" height="100%" width="100%">
+                        </div>
+                    <div class = "col-md-5">
+                <p>
+                A dedicated server owned by the Georgia History Musuem's IT department will be the primary hosting service for the website's HTML, CSS, and JS. A SPA (single page application) web design will be the primary foundation that the website will be built upon with some webpages utilizing additional HTML pages to contain the needed information. Additionally, Cloudinary CDN service will be utilized to host and manage images/graphics that will appear in the website. 
+                </p>
+                        </div>
+            <!-- TODO: add graphic and short description -->
+            </div>
+                </div>
+            
+            <div id="mediaTypes">
+            <h3>Multimedia Types</h3>
+                <div class = "row">
+                    <div class = "col-md-7">
+                
+                        
+                        <table style="width:100%" align="center">
+
+    
+    <tr align="center">
+        <td> Inline Images (jpeg and gif)  </td>
+        <td> Yes  </td>
+  
+    </tr>
+
+     <tr align="center">
+        <td> Video  </td>
+        <td> Yes  </td>
+  
+    </tr>
+
+     <tr align="center">
+        <td> text/css  </td>
+        <td> Yes  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Radio Buttons  / Checkbox / Text Area/ Menu   </td>
+        <td> No  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> HTML Form  </td>
+        <td> No  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Hyperlinks to other pages  </td>
+        <td> Yes </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Html Table  </td>
+        <td> Yes  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> JavaScript  </td>
+        <td> Yes  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Flash or Shockwave  </td>
+        <td> No  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Java Applet  </td>
+        <td> No  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Hyperlink to an image  </td>
+        <td> Yes </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Text Formatting  </td>
+        <td> Yes  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Html Frames  </td>
+        <td> No  </td>
+  
+    </tr>
+	<tr align="center">
+        <td> Text Breaks and Divisions (Horizontal Rule, Line Break, etc.)  </td>
+        <td> No  </td>
+  
+    </tr>
+
+
+    
+
+</table>
+                        
+
+                        </div>
+                    <div class = "col-md-5">
+                <p>
+                The following are the common multimedia types used for today's web design and architecture. The developers at JM development have deterimined which types to integrate in the final product, however these multimedia types may change to meet the demand of the museum.  
+                </p>
+                        </div>
+            <!-- TODO: add graphic and short description -->
+            </div>
+                </div>
+            
+            
+                        <div id="sampleSite">
+            <h3>Prototype Pages and Design</h3>
+                <div class = "row">
+                    <div class = "col-md-7">
+                        
+                <img src="../images/GHM%20Sample.png" height="100%" width="100%">
+                        </div>
+                    <div class = "col-md-5">
+                <p>
+                The following button will direct you to a concept site of the possible final build. No content has been added but the HTML/CSS/JavaScript is integrated into the sample site to demonstrate the design and behavior of the final site
+                </p>
+                        <a href="../html5up-halcyonic/index.html" class="btn btn-primary btn-lg active" role="button">Visit Sample Site &raquo;</a>
+                        </div>
+            </div>
+            </div>
+
+
+            <!-- close row -->
+        </section>
+    </div>
+    <!-- close container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
